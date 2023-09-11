@@ -1,3 +1,4 @@
+@import url('../../App.css');
 body{
-    background: #3D0000;
+    background: var(--bg-color);
 }

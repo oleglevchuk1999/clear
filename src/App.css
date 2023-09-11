@@ -3,10 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background: #3D0000;
-  
-}
 
 :root {
   --bg-color: #000000;
@@ -14,3 +10,10 @@ body{
   --text-color: #950101;
   --h1-color:#FF0000;
 }
+
+
+body{
+  background: var(--bg-color);
+  
+}
+
