@@ -1,9 +1,11 @@
 import React from 'react';
 import './Header.css';
 import logoimg from './../../images/logo2.png'
+import { Routes, Route, Link } from 'react-router-dom';
 
 const Header = () => {
     return ( 
+        
         <header>
             <div className='logo'>
                 <img src={logoimg} alt="logo" />
@@ -12,7 +14,7 @@ const Header = () => {
                 <nav id='menu'>
                     <input type='checkbox' id='responsive-menu' onclick='updatemenu()'/><label></label>
                         <ul>
-                            <li><a href='http://'>Home</a></li>
+                            <li><Link to='/'>Home</Link></li>
                             <li><a class='dropdown-arrow' href='http://'>Products</a>
                                 <ul class='sub-menus'>
                                     <li><a href='http://'>Products 1</a></li>
@@ -36,13 +38,14 @@ const Header = () => {
                 <nav id='menu'>
                     <input type='checkbox' id='responsive-menu' onclick='updatemenu()'/><label></label>
                         <ul>
-                            <li><a href='http://'>Login</a></li>
-                            <li><a href='http://'>Sign in</a></li>
-                            <li><a href='http://'>Sign out</a></li>
+                            <li><Link to='/login'>Login</Link></li>
+                            <li><Link href='http://'>Sign in</Link></li>
+                            <li><Link href='http://'>Sign out</Link></li>
                         </ul>
                 </nav>
 
         </header>
+        
      );
 }
 export default Header;
