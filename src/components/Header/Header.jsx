@@ -33,10 +33,16 @@ const Header = () => {
                         </ul>
                 </nav>
 
-                <div></div>
+                <nav id='menu'>
+                    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'/><label></label>
+                        <ul>
+                            <li><a href='http://'>Login</a></li>
+                            <li><a href='http://'>Sign in</a></li>
+                            <li><a href='http://'>Sign out</a></li>
+                        </ul>
+                </nav>
 
         </header>
      );
 }
- 
 export default Header;
