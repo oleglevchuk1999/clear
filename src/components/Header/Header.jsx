@@ -23,7 +23,7 @@ const Header = () => {
                                     <li><NavLink to='http://'>Products 4</NavLink></li>
                                 </ul>
                             </li>
-                            <li><NavLink to='http://'>About</NavLink></li>
+                            <li><NavLink to='/about'>About</NavLink></li>
                             <li><NavLink class='dropdown-arrow' to='http://'>Services</NavLink>
                                 <ul class='sub-menus'>
                                 <li><NavLink to='http://'>Services 1</NavLink></li>

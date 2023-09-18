@@ -3,9 +3,6 @@ import './Login.css';
 const Login = () => {
     return ( 
         <div className='Auth'>
-        <div id="stars"></div>
-<div id="stars2"></div>
-<div id="stars3"></div>
 <div class="section">
   <div class="container">
     <div class="row full-height justify-content-center">
@@ -28,8 +25,8 @@ const Login = () => {
                       <input type="password" class="form-style" placeholder="Password"/>
                       <i class="input-icon uil uil-lock-alt"></i>
                     </div>
-                    <a href="https://www.web-leb.com/code" class="btn mt-4">Login</a>
-                    <p class="mb-0 mt-4 text-center"><a href="https://www.web-leb.com/code" class="link">Forgot your password?</a></p>
+                    <a href="http://" class="btn mt-4">Login</a>
+                    <p class="mb-0 mt-4 text-center"><a href="http://" class="link">Forgot your password?</a></p>
                       </div>
                     </div>
                   </div>
@@ -53,7 +50,7 @@ const Login = () => {
                       <input type="password" class="form-style" placeholder="Password"/>
                       <i class="input-icon uil uil-lock-alt"></i>
                     </div>
-                    <a href="https://www.web-leb.com/code" class="btn mt-4">Register</a>
+                    <a href="http://" class="btn mt-4">Register</a>
                       </div>
                     </div>
                   </div>
