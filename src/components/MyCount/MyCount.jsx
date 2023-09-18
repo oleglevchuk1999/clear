@@ -28,7 +28,7 @@ const MyCount = () => {
     return (
         <div>
             <p>Numbers: {number.join(', ')} </p>
-            <p>Click count: {clickCount}</p>
+            <p>Click count useEffect: {clickCount}</p>
             <Button variant="contained" color="secondary" onClick={handleAddNumber}>
                 Add {numberadd}
             </Button>
