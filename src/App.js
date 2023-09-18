@@ -11,8 +11,8 @@ function App() {
       <Header/>
 
       <div id="stars"></div>
-  <div id="stars2"></div>
-  <div id="stars3"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/login' element={<Login/>}/>
