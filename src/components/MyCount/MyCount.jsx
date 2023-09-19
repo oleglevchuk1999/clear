@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from '@material-ui/core';
+import MyButton from '../UI/MyButton/MyButton';
 
 const MyCount = () => {
     const [number, setNumber] = useState([2]);
@@ -26,15 +26,15 @@ const MyCount = () => {
     }, [number, clickCount]); 
 
     return (
-        <div>
+        <div className='my-count'>
             <p>Numbers: {number.join(', ')} </p>
             <p>Click count useEffect: {clickCount}</p>
-            <Button variant="contained" color="secondary" onClick={handleAddNumber}>
+            <MyButton  onClick={handleAddNumber}>
                 Add {numberadd}
-            </Button>
-            <Button variant="contained" color="secondary" onClick={handleRemoveLastNumber}>
+            </MyButton>
+            <MyButton  onClick={handleRemoveLastNumber}>
                 Remove Last {numberadd}
-            </Button>
+            </MyButton>
         </div>
     );
 }

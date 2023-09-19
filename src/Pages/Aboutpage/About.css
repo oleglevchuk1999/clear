@@ -1,9 +1,14 @@
-@import url('../../App.css');
 
 .about{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh; 
-    margin-top: 20px;
 }
+
+.count,
+.my-count,
+.my-button {
+  margin-bottom: 20px;
+}
+
