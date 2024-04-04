@@ -13,6 +13,7 @@ const styles = {
     height: 48,
     padding: '0 30px',
     boxShadow: '0 3px 5px 2px #FF0000',
+    margin: '0 20px',
   },
 };
 
